@@ -20,7 +20,7 @@ function App() {
 
 
       <div className="card" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>  
-        <div  style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+        <div  style={{display: 'flex', flexDirection: 'row', alignItems: 'center', }}>
         <h1>Vite + React</h1>
           <button onClick={() => setCount((count) => count + 1)}>
             count is {count}
